@@ -1,10 +1,10 @@
-import active from "./modules/active.js";
+// import active from "./modules/active.js";
 import burger from "./modules/burger-icon.js";
 import menu from "./modules/side-menu.js";
 import footerAnimation from "./modules/footer-animation.js";
 
 //making nav links avtive
-active('.nav-link', '.navbar', 'active');
+// active('.nav-link', '.navbar', 'active');
 
 // burger menu stuff 
 burger();

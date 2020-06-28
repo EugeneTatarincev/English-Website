@@ -1,0 +1,95 @@
+body {
+    background: url('../img/back.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%;
+}
+
+/* QUIZ */
+
+.quiz {
+    margin-right: 20px;
+    color:#AEAEAE;
+    padding: 10px 10px 10px 20px;
+    font-size: 27px;
+    width: 60%;
+    position: relative;
+}
+
+.form-check {
+    margin-left: 50px;
+}
+
+/* MUTUAL */
+
+.quiz-mutual {
+    display: inline-block;
+    height: 70%;
+    background: #2c4762;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    vertical-align:top;
+}
+
+/* MENU */
+
+
+.quiz-menu-ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.quiz-menu-ul li {
+    padding: 6px 10px 6px 10px;
+    transition: 0.3s linear;
+}
+
+.quiz-menu-ul li:hover {
+    border: 4px solid #223350;
+    cursor: pointer;
+}
+
+.quiz-menu-ul li:first-child:hover {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.quiz-menu-ul li:last-child:hover {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.quiz-menu-ul li a {
+    text-decoration: none;
+    font-size: 27px;
+    color: #AEAEAE;
+    transition: 1s;
+}
+
+.quiz-menu-ul li:hover a {
+    color: white !important;
+}
+
+/* BUTTON */
+
+.form-button {
+    color: #AEAEAE;
+    background: #4169E1;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.form-button:hover {
+    color: white;
+}
+
+
+
+
+

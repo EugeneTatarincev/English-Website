@@ -19,7 +19,7 @@ header {
 }
 
 .info-first {
-    background: #3366FF;
+    background: #2c4762;
     width: 100%;
     color: #AEAEAE;
     text-align: center;
@@ -31,7 +31,7 @@ header {
 .info-second {
     background: #AEAEAE;
     width: 100%;
-    color: #3366FF;
+    color: #2c4762;
     text-align: center;
     display: inline-block;
     padding-top: 20px;
@@ -212,12 +212,10 @@ footer {
 }
 
 .p-main {
-    text-align: center;
-    border: 3px solid black;
     width: 200px;
     position: relative;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .p-toggle {
