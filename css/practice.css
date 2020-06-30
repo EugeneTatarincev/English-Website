@@ -16,19 +16,44 @@ body {
     font-size: 27px;
     width: 60%;
     position: relative;
+    background: #2c4762;
+    border-radius: 10px;
 }
 
 .form-check {
     margin-left: 50px;
 }
 
+@media (max-width: 768px) { 
+    .quiz {
+        display:none !important;
+    }
+
+    .parent {
+       position: absolute;
+       top:0;
+       left:0;
+       text-align: center;
+       width: 100%;
+       height: 100%;;
+    }
+    
+    .height-for-small {
+        height: 1000px;
+        width: 100%;
+    }
+
+    .quiz-menu {
+        margin-left: 0px !important;
+        z-index: 5;
+    }
+}
+
+
 /* MUTUAL */
 
 .quiz-mutual {
     display: inline-block;
-    height: 70%;
-    background: #2c4762;
-    border-radius: 10px;
     margin-top: 100px;
     margin-bottom: 50px;
     margin-left: 20px;
@@ -37,6 +62,9 @@ body {
 
 /* MENU */
 
+.parent{
+    display: inline-block;
+}
 
 .quiz-menu-ul {
     list-style-type: none;
@@ -45,8 +73,19 @@ body {
 }
 
 .quiz-menu-ul li {
+    background: #2c4762;
     padding: 6px 10px 6px 10px;
     transition: 0.3s linear;
+}
+
+.quiz-menu-ul li:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.quiz-menu-ul li:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .quiz-menu-ul li:hover {
