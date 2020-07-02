@@ -14,3 +14,4 @@ menu('.menuTwo', '.menu', 'toggle', '.side-menu', 'side-menu-toggle');
 
 //footer animation part 
 footerAnimation('.btn-google', '.p-back', 'p-toggle');
+
