@@ -8,7 +8,7 @@ import navbarScroll from "./modules/navbar-scroll.js";
 burger();
 
 //side menu stuff
-menu('.menuTwo', '.menu', 'toggle', '.side-menu', 'side-menu-toggle');
+menu('.menuTwo', '.menu', 'toggle', '.side-menu', 'side-menu-toggle', 'scrollHidden');
 
 //footer animation part 
 footerAnimation('.btn-google', '.p-back', 'p-toggle');

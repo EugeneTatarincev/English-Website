@@ -14,7 +14,7 @@ header {
     height: 100vh;
     text-align: center;
     /* color: #8193FE; */
-    color: #4169E1;
+    color: lightskyblue;
     /* For comfiness */
     padding-top: 200px;
 }
@@ -42,7 +42,8 @@ header {
 /* NAVIGATION BAR */
 
 .navbar {
-    background: rgb(65, 105, 225, 0.5);
+    /* background: rgb(65, 105, 225, 0.5); */
+    background: rgb(135, 206, 250, 0.5);
     z-index:50;
     transition: top 0.3s;
 }
@@ -117,8 +118,9 @@ a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    background: rgb(65, 105, 225, 0.5);
-    margin-top: 79px;
+    /* background: rgb(65, 105, 225, 0.5); */
+    background: rgb(135, 206, 250, 0.5);
+    margin-top: 75px;
     height: 0;
     text-align: center;
     transition: 0.5s;
@@ -448,7 +450,7 @@ footer {
 /* NAVBAR SCROLL */
 
 .out {
-	top: -70px;
+	top: -80px;
 }
 
 
