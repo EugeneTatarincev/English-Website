@@ -1,16 +1,19 @@
-body {
+main {
     background: url('../img/back.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     -moz-background-size: 100%; 
     -webkit-background-size: 100%; 
     -o-background-size: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
 }
 
 /* QUIZ */
 
 .quiz {
-    margin-right: 20px;
+    /* margin-right: 20px; */
     color:#AEAEAE;
     padding: 10px 10px 10px 20px;
     font-size: 27px;
@@ -18,7 +21,6 @@ body {
     position: relative;
     background: #2c4762;
     border-radius: 10px;
-    position: relative;
 }
 
 .form-check {
@@ -31,14 +33,22 @@ body {
     }
 
     .quiz {
-        margin-left: 3px !important;
-        margin-right: 3px !important;
         z-index: 5;
+        max-width: 600px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 
     .five-wrapper {
         display: block !important;
         z-index: 100;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .quiz {
+        max-width: 350px !important;
     }
 }
 

@@ -2,9 +2,7 @@
 import burger from "./modules/burger-icon.js";
 import menu from "./modules/side-menu.js";
 import footerAnimation from "./modules/footer-animation.js";
-
-//making nav links avtive
-// active('.nav-link', '.navbar', 'active');
+import navbarScroll from "./modules/navbar-scroll.js";
 
 // burger menu stuff 
 burger();
@@ -15,3 +13,5 @@ menu('.menuTwo', '.menu', 'toggle', '.side-menu', 'side-menu-toggle');
 //footer animation part 
 footerAnimation('.btn-google', '.p-back', 'p-toggle');
 
+// NAVBAR SCROLL
+navbarScroll('.navbar');

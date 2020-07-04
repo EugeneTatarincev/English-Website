@@ -1,11 +1,10 @@
-import burgerFive from "./modules/responsive-burger.js";
-import theory from "./modules/theory.js";
+import burgerOne from "./modules/responsive-burger.js";
 import responsiveMenu from "./modules/responsive-menu.js";
 
 // BURGER ICON 5
 
-burgerFive();
+burgerOne();
 
 //MENU FOR MOBILES
 
-responsiveMenu('.menuFive', '.five-wrapper', '.menu-ul-responsive', 'toggleFive', 'toggleMenu');
+responsiveMenu('.menuOne', '.five-wrapper', '.menu-ul-responsive', 'toggleFive', 'toggleMenu', 'toggleButton', 'scrollHidden');

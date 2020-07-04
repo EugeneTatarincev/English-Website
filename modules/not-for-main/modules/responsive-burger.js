@@ -1,9 +1,9 @@
-export default function burgerFive() {
-    const menuFive = document.querySelector('.menuFive');
+export default function burgerOne() {
+    const menuOne = document.querySelector('.menuOne');
 
-    function addClassFunFive() {
-        this.classList.toggle("clickMenuFive");
+    function addClassFunOne() {
+        this.classList.toggle("clickMenuOne");
     }
 
-    menuFive.addEventListener('click', addClassFunFive);
+    menuOne.addEventListener('click', addClassFunOne);
 }
